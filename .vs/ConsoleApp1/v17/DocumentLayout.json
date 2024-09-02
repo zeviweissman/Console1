@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\1\\source\\repos\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{894FCB28-7537-4F9C-8836-E1522288CACE}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\1\\source\\repos\\consoleapp1\\consoleapp1\\mylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894FCB28-7537-4F9C-8836-E1522288CACE}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\mylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{894FCB28-7537-4F9C-8836-E1522288CACE}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\1\\source\\repos\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{894FCB28-7537-4F9C-8836-E1522288CACE}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{894FCB28-7537-4F9C-8836-E1522288CACE}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\1\\source\\repos\\consoleapp1\\consoleapp1\\mylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{894FCB28-7537-4F9C-8836-E1522288CACE}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\mylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{894FCB28-7537-4F9C-8836-E1522288CACE}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\1\\source\\repos\\consoleapp1\\consoleapp1\\imylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -39,26 +39,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MyList.cs",
               "DocumentMoniker": "C:\\Users\\1\\source\\repos\\ConsoleApp1\\ConsoleApp1\\MyList.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\MyList.cs",
               "ToolTip": "C:\\Users\\1\\source\\repos\\ConsoleApp1\\ConsoleApp1\\MyList.cs",
               "RelativeToolTip": "ConsoleApp1\\MyList.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAEwEwAAABCAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAkwE4AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T08:40:54.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\1\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\1\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAkwBgAAAAHAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwD8AAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T08:39:33.349Z",
               "EditorCaption": ""

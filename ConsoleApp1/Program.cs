@@ -1,16 +1,22 @@
 ﻿using ConsoleApp1;
 
-IMyList<int> ints = new MyList<int>();
+IMyList<Func<string, string>> myList = new MyList<Func<string, string>>();
 
-ints.Push(1);
-ints.Pop(); 
-ints.Unshift(1);
-ints.Unshift(2);
-ints.Shift();
-ints.Push(6);
-ints.Push(4);
-ints.Push(6);
-ints.Push(6);
+Func<string, string> AddHello =
+    (str) => $"{str} hello!";
+
+Func<string, string> DuplicateString =
+    (str) => $"{str} {str}";
+Func<string, string> ToCapital =
+    (str) => str.ToUpper() ;
+
+Func<string, string> AddStringLength =
+    (str) => $"{str}; Total string length {str.Length}";
+
+myList.Push(AddHello);
+myList.Push(DuplicateString);
+myList.Push(ToCapital);
+myList.Push(AddStringLength);
 
 
 int TotalNumbers(int num)
@@ -28,17 +34,18 @@ int Fibo(int num) =>
 
 
 
-//Func<int, int> Fibo1;
-//    Fibo1 =
+Func<int, int> fibo1 = null;
+    fibo1 =
+    (num) => num <= 1
+    ? 1
+    : fibo1(num - 1) + fibo1(num - 2);
+
+
+
+//Func<int, int> fibo2 =
 //    (num) => num <= 1
 //    ? 1
-//    : Fibo1(num - 1) + Fibo1(num - 2);
-
-//Func<int, int> Fibo2 =
-//    (num) => num <= 1
-//    ? 1
-//    : Fibo2(num - 1) + Fibo2(num - 2);
-
+//    : fibo2(num - 1) + fibo2(num - 2);
 
 
 
@@ -50,8 +57,8 @@ int Factorial(int num)
 
 }
 
+Predicate<int> isEven =
+    (num) => num % 2 == 0;
 
 
-
-
-Console.WriteLine(TotalNumbers(1222));
+Console.WriteLine(myList.Reduce("Zevi", (start, nextFunc) =>  nextFunc(start)));

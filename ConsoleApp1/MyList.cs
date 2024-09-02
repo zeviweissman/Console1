@@ -69,19 +69,16 @@ namespace ConsoleApp1
             =>  $"[{MyJoin(", ")}]";
 
 
-        public R Reduce<R>(R intialValue, Func<R, T, R> reducer, int indexCounter = 0)
-        {
-            try
-            {
-                intialValue = reducer(intialValue, Get(indexCounter));
-                return Reduce(intialValue, reducer, indexCounter+1);
-            }
-            catch
-            {
-                return intialValue;
-            }
-            
-        }
+        
+
+        public R Reduce<R>(R initialValue, Func<R, T, R> reducer, int index = 0) =>
+         index >= _list.Length
+        ? initialValue
+        : Reduce(reducer(initialValue, _list[index]), reducer, index + 1);
+        
+       
+
+
 
         public string MyJoin(string sperator="")
         => Reduce(string.Empty, (start, next)
